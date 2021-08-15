@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "IR ",
+    "   "
+  ],
+  "key": {
+    "R": {
+      "item": "covid:zombie_heart"
+    },
+    "I": {
+      "item": "covid:vaccine_empty"
+    }
+  },
+  "result": {
+    "item": "covid:vaccine"
+  }
+}

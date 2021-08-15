@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IIW",
+    "IRI",
+    "WII"
+  ],
+  "key": {
+    "W": {
+      "item": "covid:iron_stick"
+    },
+    "R": {
+      "item": "minecraft:glass_pane"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "covid:vaccine_empty"
+  }
+}

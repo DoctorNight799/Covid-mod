@@ -1,0 +1,15 @@
+{
+  "itemGroup.covid.items": "Covid Items",
+
+  "item.covid.vaccine_empty": "Syringe",
+  "item.covid.vaccine": "Vaccine",
+  "item.covid.iron_stick": "Spine",
+  "item.covid.zombie_heart": "Zombie Heart",
+
+  "item.covid.vaccine_empty.tooltip": "It is a material for vaccine",
+  "item.covid.vaccine.tooltip": "Vaccine removes COVID 19",
+  "item.covid.iron_stick.tooltip": "It is a material for syringe",
+  "item.covid.zombie_heart.tooltip": "It is a second material for vaccine",
+
+  "effect.covid.covid_virus": "COVID-19"
+}
