@@ -1,6 +1,6 @@
 package dev.covid.mixins;
 
-import dev.covid.effects.CovidEffects;
+import dev.covid.effects.VirusesEffects;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.effect.StatusEffectInstance;
@@ -15,6 +15,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 public class ZombieCovid {
 	@Inject(at = @At("INVOKE"), method = "tryAttack")
 	private void init(Entity target, CallbackInfoReturnable<Boolean> cir) {
-		((LivingEntity)target).addStatusEffect(new StatusEffectInstance(CovidEffects.COVID, 99999 * 2, 0));
+		((LivingEntity)target).addStatusEffect(new StatusEffectInstance(VirusesEffects.COVID, 99999 * 2, 0));
 	}
 }

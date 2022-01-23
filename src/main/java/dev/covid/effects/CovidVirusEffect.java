@@ -2,15 +2,16 @@ package dev.covid.effects;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.AttributeContainer;
+import net.minecraft.entity.effect.StatusEffect;
+import net.minecraft.entity.effect.StatusEffectCategory;
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffectType;
 import net.minecraft.entity.effect.StatusEffects;
 
 
-public class CovidVirusEffect extends CovidEffect {
+public class CovidVirusEffect extends StatusEffect {
 
-    public CovidVirusEffect(StatusEffectType type, int color) {
-        super(type, color);
+    public CovidVirusEffect(StatusEffectCategory type, int color) {
+        super(StatusEffectCategory.HARMFUL, color);
     }
 
     @Override

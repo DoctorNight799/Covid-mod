@@ -1,7 +1,7 @@
 package dev.covid.items;
 
 
-import dev.covid.effects.CovidEffects;
+import dev.covid.effects.VirusesEffects;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
@@ -37,10 +37,10 @@ public class VaccineItem extends Item {
         }
 
         if (!world.isClient) {
-            user.removeStatusEffect(CovidEffects.COVID);
+            user.removeStatusEffect(VirusesEffects.COVID);
         }
 
-        return stack.isEmpty() ? new ItemStack(CovidItems.VACCINE_EMPTY) : stack;
+        return stack.isEmpty() ? new ItemStack(VirusesItems.VACCINE_EMPTY) : stack;
     }
 
     @Override

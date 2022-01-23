@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "covid",
+  "id": "viruses",
   "version": "${version}",
 
   "name": "Covid Mod",
@@ -14,16 +14,16 @@
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/viruses/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.covid.CovidMain"
+      "dev.covid.VirusesMain"
     ]
   },
   "mixins": [
-    "covid.mixins.json"
+    "viruses.mixins.json"
   ],
 
   "depends": {
