@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "id": "viruses",
+  "id": "virus",
   "version": "${version}",
 
   "name": "Covid Mod",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "dev.covid.VirusesMain"
+      "dev.covid.VirusMain"
     ]
   },
   "mixins": [
-    "viruses.mixins.json"
+    "virus.mixins.json"
   ],
 
   "depends": {

@@ -1,10 +1,10 @@
 {
-  "itemGroup.covid.items": "Предметы",
+  "itemGroup.virus.items": "Предметы",
 
-  "item.covid.vaccine_empty": "Пустой шприц",
-  "item.covid.vaccine": "Вакцина",
-  "item.covid.iron_stick": "Игла",
-  "item.covid.zombie_heart": "Сердце зомби",
+  "item.virus.vaccine_empty": "Пустой шприц",
+  "item.virus.vaccine": "Вакцина",
+  "item.virus.iron_stick": "Игла",
+  "item.virus.zombie_heart": "Сердце зомби",
 
-  "effect.covid.covid_virus": "COVID-19"
+  "effect.virus.covid_virus": "COVID-19"
 }

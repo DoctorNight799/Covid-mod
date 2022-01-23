@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "covid:item/iron_stick"
+    "layer0": "virus:item/iron_stick"
   }
 }

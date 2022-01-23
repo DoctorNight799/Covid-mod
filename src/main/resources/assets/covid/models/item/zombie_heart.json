@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "covid:item/zombie_heart"
+    "layer0": "virus:item/zombie_heart"
   }
 }
