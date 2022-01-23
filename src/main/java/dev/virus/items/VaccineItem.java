@@ -1,7 +1,7 @@
-package dev.covid.items;
+package dev.virus.items;
 
 
-import dev.covid.effects.VirusesEffects;
+import dev.virus.effects.VirusEffects;
 import net.minecraft.advancement.criterion.Criteria;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
@@ -37,15 +37,15 @@ public class VaccineItem extends Item {
         }
 
         if (!world.isClient) {
-            user.removeStatusEffect(VirusesEffects.COVID);
+            user.removeStatusEffect(VirusEffects.COVID);
         }
 
-        return stack.isEmpty() ? new ItemStack(VirusesItems.VACCINE_EMPTY) : stack;
+        return stack.isEmpty() ? new ItemStack(VirusItems.VACCINE_EMPTY) : stack;
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add( new TranslatableText("item.covid.vaccine.tooltip"));
+        tooltip.add( new TranslatableText("item.virus.vaccine.tooltip"));
     }
 
     public int getMaxUseTime(ItemStack stack) {

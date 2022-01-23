@@ -1,4 +1,4 @@
-package dev.covid.effects;
+package dev.virus.effects;
 
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.attribute.AttributeContainer;

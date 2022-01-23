@@ -1,4 +1,4 @@
-package dev.covid.items;
+package dev.virus.items;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
@@ -10,13 +10,13 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class VaccineEmptyItem extends Item {
-    public VaccineEmptyItem(Settings settings) {
+public class IronStickItem extends Item {
+    public IronStickItem(Settings settings) {
         super(settings);
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(new TranslatableText("item.covid.vaccine_empty.tooltip"));
+        tooltip.add(new TranslatableText("item.virus.iron_stick.tooltip"));
     }
 }

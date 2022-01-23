@@ -1,4 +1,4 @@
-package dev.covid.items;
+package dev.virus.items;
 
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.item.Item;
@@ -10,13 +10,13 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
 
-public class IronStickItem extends Item {
-    public IronStickItem(Settings settings) {
+public class ZombieHeartItem extends Item {
+    public ZombieHeartItem(Settings settings) {
         super(settings);
     }
 
     @Override
     public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
-        tooltip.add(new TranslatableText("item.covid.iron_stick.tooltip"));
+        tooltip.add(new TranslatableText("item.virus.zombie_heart.tooltip"));
     }
 }

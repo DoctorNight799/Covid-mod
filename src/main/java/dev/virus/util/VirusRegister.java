@@ -1,12 +1,12 @@
-package dev.covid.util;
+package dev.virus.util;
 
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
-import static dev.covid.VirusesMain.MODID;
-import static dev.covid.items.VirusesItems.*;
+import static dev.virus.VirusMain.MODID;
+import static dev.virus.items.VirusItems.*;
 
-public class VirusesRegister {
+public class VirusRegister {
 
     public static void registerItems() {
         Registry.register(Registry.ITEM, new Identifier(MODID, "vaccine_empty"), VACCINE_EMPTY);

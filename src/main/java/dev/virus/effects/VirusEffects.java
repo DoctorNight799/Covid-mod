@@ -1,4 +1,4 @@
-package dev.covid.effects;
+package dev.virus.effects;
 
 import net.minecraft.entity.effect.StatusEffect;
 import net.minecraft.entity.effect.StatusEffectCategory;
@@ -8,10 +8,10 @@ import net.minecraft.util.registry.Registry;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import static dev.covid.VirusesMain.MODID;
+import static dev.virus.VirusMain.MODID;
 
 
-public class VirusesEffects {
+public class VirusEffects {
 
     private static final Map<Identifier, StatusEffect> EFFECTS = new LinkedHashMap<>();
 
